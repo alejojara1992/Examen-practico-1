@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+}
+.navegador{
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.itemnav{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.itemnav img{
+    width: 11px;
+}
+.itemnav button{
+    background-color: rgba(5, 46, 32, 0.356);
+    border: 0px solid black;
+    border-radius: 45px;
+}
+.itemnav button:hover {
+    filter: opacity(.5);
+    transition: 0.2s;
+}
+.centro{
+    margin: 0px;
+    padding-top: 0px; 
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 89, 255, 0.452);
+}
+.centro h1{
+    font-size: 70px;
+}
+.centro input{
+    width: 400px;
+    border: 0px solid black;
+    border-radius: 45px;
+}
+.contenedoritems{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 550px;
+    width: 1000px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+}
+footer{
+    margin: 0px;
+    width: 100% ;
+    align-items: center;
+}
+footer div{    
+    width: 100%;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+footer img{
+    width: 23px;
+}
+
